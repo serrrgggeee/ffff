@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import 'header';
+import './header.sass';
 
 
 class Header extends Component {
@@ -17,13 +17,13 @@ class Header extends Component {
         <nav>
           <div className="nav-wrapper">
             <div className="col s12">
-              <a href="#" className="brand-logo">UpStar Music</a>
+              <a href="#" className="brand-logo">Недвижемость Реакт</a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
-                  ffff
+                  <a>fffff</a>
                 </li>
                 <li>
-                  rrr
+                  <a>fffff</a>
                 </li>
               </ul>
             </div>
